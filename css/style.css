@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9d8edf;
+}
+
+*:focus {
+    outline: none;
+}
+
+@font-face {
+    font-family: prototype;
+    src: url('../fonts/Prototype.ttf');
+}
+
+@font-face {
+    font-family: pepsi;
+    src: url('../fonts/pepsi.ttf');
+}
+
+body{
+    background-color: #9d8edf;
+}
+
+/*Mobile*/
+
+.icon{
+    margin-left: 3%;
+}
+
+.icon img{
+    margin-top: 12%;
+    width: 90vw;
+    height: 90vw;
+}
+
+.texto p{
+    color: white;
+    font-family: prototype;
+    font-size: 6.5vw;
+    float: right;
+    margin-left: 5%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.texto{
+    height: 1vw;
+}
+
+#email {
+    border-radius: 6%;
+    width: 90vw;
+    height: 6vw;
+    float:right;
+    margin-right: 4%;
+    position: relative;
+    margin-top: -100vw;
+    padding: 1.6vw;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    border: none;
+    font-family: prototype;
+}
+
+input[type=submit]{
+    width: 15%;
+    float: right;
+    padding: 0.6vw;
+    margin-right: 40%;
+    border-radius: 100px;
+    position: relative;
+    margin-top: -90vw;
+    background-color:whitesmoke;
+    border: none;
+    color:  #9d8edf;
+    font-family: prototype;
+    font-size: 3vw;
+}
+/*Fim Mobile*/
+
+/*Inicio Desktop*/
+@media screen and (min-width: 768px){
+
+    .icon{
+        width: 50%;
+    }
+
+    .icon img{
+        margin-top: -12vw;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .texto p{
+        color: white;
+        font-family: prototype;
+        font-size: 2.4vw;
+        float: right;
+        position: relative;
+        margin-top: 10%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .texto{
+        height: 1vw;
+    }
+
+    #email {
+        border-radius: 6%;
+        width: 45vw;
+        height: 4vw;
+        float:right;
+        margin-right: 4%;
+        position: relative;
+        margin-top: -28vw;
+        padding: 1.6vw;
+        position: relative;
+        box-sizing: border-box;
+        border-radius: 100px;
+        background-color: whitesmoke;
+        border: none;
+        font-family: prototype;
+    }
+    
+    input[type=submit]{
+        width: 10%;
+        float: right;
+        padding: 0.6vw;
+        margin-right: 21%;
+        border-radius: 100px;
+        position: relative;
+        margin-top: -22vw;
+        background-color:whitesmoke;
+        border: none;
+        color:  #9d8edf;
+        font-family: prototype;
+        font-size: 1.3vw;
+    }
+}
+/*Fim Desktop*/
